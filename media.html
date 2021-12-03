@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="header">
+    <h1> BLΛƆKPIИK </h1>
+    </div>
+
+    <!-- Navigation Bar -->
+  <div class="navbar" id="myTopnav">
+  <a href="#" class="active" >HOME</a>
+  <a href="info.html">INFO</a>
+  <a href="members.html">MEMBER</a>
+  <a href="album.html">ALBUM</a>
+  <a href="concert.html">CONCERT</a>
+  <a href="media.html">MEDIA</a>
+  <a href="javascript:void(0);" class="icon" onclick="navFunction()">&#9776;</a>
+</div>
+  <center>
+  <div class="media-container">
+  <h4> Check out some of BLACKPINK's Official Mechandise!</h4>
+  <h4>(Click on the arrows to see more)</h4>
+  <div class="slides">
+    <div class="numbertext">1 / 6</div>
+    <img src="pictures/photo1.jpg" style="width = "80%" height = "300"">
+  </div>
+
+  <div class="slides">
+    <div class="numbertext">2 / 6</div>
+    <img src="pictures/photo2.jpg" style="width = "80%" height = "300"">
+  </div>
+
+  <div class="slides">
+    <div class="numbertext">3 / 6</div>
+    <img src="pictures/photo3.jpg" style="width = "80%" height = "300"">
+  </div>
+    
+  <div class="slides">
+    <div class="numbertext">4 / 6</div>
+    <img src="pictures/photo4.jpg" style="width = "80%" height = "300"">
+  </div>
+
+  <div class="slides">
+    <div class="numbertext">5 / 6</div>
+    <img src="pictures/photo5.jpg" style="width = "80%" height = "300"">
+  </div>
+    
+  <div class="slides">
+    <div class="numbertext">6 / 6</div>
+    <img src="pictures/photo6.jpg" style="width = "80%" height = "300"">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="pictures/photo1.jpg" style="width:90px" onclick="currentSlide(1)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="pictures/photo2.jpg" style="width:90px" onclick="currentSlide(2)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="pictures/photo3.jpg" style="width:90px" onclick="currentSlide(3)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="pictures/photo4.jpg" style="width:90px" onclick="currentSlide(4)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="pictures/photo5.jpg" style="width:90px" onclick="currentSlide(5)">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="pictures/photo6.jpg" style="width:90px" onclick="currentSlide(6)">
+    </div>
+  </div><br><br>
+<button onclick="Function1()" class="btn">Go to Page</button> <br>
+
+
+<form>
+<h4> If you have any questions, please feel free to drop us an email by filling out the form below! </h4>
+  <label for="fname">First name:</label><br>
+  <textarea = rows="2" cols="50"  id="message" required></textarea><br>
+  <label for="email">Email (required):</label><br>
+  <textarea = rows="2" cols="50"  id="message" required></textarea><br><br>
+  <label for="subject">Subject:</label><br>
+  <textarea = rows="4" cols="50"  id="message"></textarea><br><br>
+  <label for="message"">Message:</label><br>
+  <textarea = rows="7" cols="50"  id="message"></textarea><br><br>
+  <button onclick="submitButton()" class="submitbtn">Submit</button> <br>
+</form>
+
+
+<footer>
+  <h4> More about BLACKPINK @ </h4>
+  <img src="pictures/facebook.jpg" onclick="facebookFunction()" width="50" height="50"></a>
+  <img src="pictures/twitter.jpg" onclick="twitterFunction()" width="50" height="50"></a>
+  <img src="pictures/youtube.jpg" onclick="youtubeFunction()"width="50" height="50"></a>
+  <img src="pictures/instagram.jpg" onclick="instagramFunction()"  width="50" height="50"></a>
+</footer>
+</div>
+</center>
+
+    <script src="script.js"></script>
+  </body>
+</html>

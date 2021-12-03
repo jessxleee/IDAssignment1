@@ -1,0 +1,480 @@
+/* Header/logo Title */
+.header {
+    margin: 2px;
+    text-align: center;
+    background:black;
+    color:#f4a7bb ;
+    font-size: 70px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  
+  /* Style the top navigation bar */
+  .navbar {
+    overflow: hidden;
+    background-color:  grey;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .active {
+    background-color: grey;
+    color: white;
+  }
+  
+  .navbar .icon {
+    display: none;
+  }
+  
+  
+  .navbar a:hover {
+    background-color: lightgray;
+    color: white;
+  }
+  
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .navbar .icon {
+    display: none;
+  }
+  
+  
+  
+  /*Contents of Slideshow page*/
+  
+  /* Slideshow container */
+  .slideshow-container {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    background-color: black;
+  }
+  
+  .index-btn {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: black;
+    color:white;
+    font-size: 16px;
+    padding: 14px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .index-btn:hover {
+    background-color:grey;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  
+  
+  /* Content of info.html  */
+  /* Column container */
+  .flex-column {  
+    display: flex;
+    flex-wrap: column-wrap;
+  }
+  
+  
+  /* Sidebar/left column */
+  .side {
+    flex: 20%;
+    background-color: rgba(39, 34, 34, 0.801);
+    padding: 20px;
+  }
+  
+  /* Main column */
+  
+  .main {
+    flex: 80%;
+    background-color:#333;
+    padding: 20px;
+    color: white;
+  }
+  
+  .img{
+    text-align: center;
+  }
+  
+  
+  
+  /* COntent of members.html*/
+  * {
+    box-sizing:border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+  }
+  
+  .container {
+    padding: 64px;
+  }
+  
+  .row{
+  border-style: solid;
+  border-color: #f4a7bb ;
+  border-width: thick;
+  width: 100%;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both
+  }
+  
+  .column-1 {
+    float: left;
+    width: 66.66666%;
+    padding: 20px;
+  }
+  
+  .column-2 {
+    float: left;
+    width: 33.33333%;
+    padding: 20px;
+  }
+  
+  
+  .column-2 > img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  
+  
+  /*Content of album.html*/
+  .album-container{
+    background: black;
+  }
+  
+  .album-title{
+    color: pink;
+    text-align: center;
+  }
+  
+  .text{
+    color: white;
+    width: 80%;
+  }
+  
+  
+  /* Dropdown Button */
+  .dropbtn {
+    background-color: #717171;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 250px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #717171;
+    width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color:gray;}
+  
+  
+  /* content of concert.html*/
+  .concert-container p{
+    color: white;
+    width: 80%;
+  }
+  
+  iframe{
+    text-align: center;
+  }
+  
+  .cContainer {  
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 300px
+  }
+  
+  .cLeft {
+    flex: 50%;
+    background-color: black;
+    padding: 20px;
+    width: 100px;
+    height: 250px;
+  }
+  
+  
+  .cRight {
+    flex: 50%;
+    background-color: black;
+    padding: 20px;
+    width: 70px;
+    height: 250px;
+  }
+  
+  .btn {
+    display: block;
+    width: 80%;
+    border: none;
+    background-color:#242222c9;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  /*Content of media.html*/
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container .row {
+    position: relative;
+    width: 50%;
+  }
+  
+  /* Hide the images by default */
+  .slides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 100%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "prev button" to the left */
+  .prev{
+    left: 25%;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 25%;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color:lightgray;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 65%;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    width: 80%;
+  }
+  
+  .row{
+     width: 80%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  .submitbtn{
+    display: block;
+    width: 20%;
+    border: none;
+    background-color:#242222c9;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 600px) {
+  .navbar{
+     width: 980px;
+  }
+    .navbar a {
+      display: none;
+    }
+    .navbar a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+  
+  .header {
+    font-size: 60px;
+    width: 980px;
+    text-align: center;
+  }
+  
+  .navbar.responsive {position: relative;}
+  .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  .navbar.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  
+  .slideshow-container,.container,.flex-column,.album-container, .concert-container, .media-container{
+    width: 980px;
+    height: auto;
+  }
+  
+  .column-1,
+  .column-2 {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .column-2 > img {
+    margin: auto;
+    }
+    
+  .prev{
+    left: 30%;
+    top: 70%;
+  }
+  
+  .next {
+    left: 200%;
+    top: 70%;
+  }
+  
+  .caption-container,.column{
+    display: none;
+  }
+  
+  .numbertext{
+    top: 50%;
+  }
+  
+  
+    
+  }
