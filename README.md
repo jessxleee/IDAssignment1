@@ -7,22 +7,22 @@ This wesbsite also provides link to the band's official platforms such as offici
 ##Credits
 
 Slideshow in home.html 
-Code : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_auto
+- Code : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_auto
 
 Resposive Wesbite using flexboxes in info.html
-Code : https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_website2
+- Code : https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_website2
 
 Contents in members.html
-Text and pictures : https://kprofiles.com/black-pink-members-profile/
+- Text and pictures : https://kprofiles.com/black-pink-members-profile/
 
 Structure and layout of album.html
-https://www.ygfamily.com/artist/main.asp?LANGDIV=K&ATYPE=2&ARTIDX=70
+- https://www.ygfamily.com/artist/main.asp?LANGDIV=K&ATYPE=2&ARTIDX=70
 
 Manual Layout of media.html
-Code : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_gallery
+- Code : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_gallery
 
 Form of media.html
-https://www.w3schools.com/html/html_form_input_types.asp
+- code : https://www.w3schools.com/html/html_form_input_types.asp
 
 Alert Pop-up
-Code : https://www.w3schools.com/js/js_popup.asp
+- Code : https://www.w3schools.com/js/js_popup.asp
