@@ -1,10 +1,10 @@
-#BLACKPINK's Fanpage Website
+# BLACKPINK's Fanpage Website
 
 This website aims to serve as a platform to promote artist/band by selling more of their music/merchandise and getting more gigs. By doing that, this website includes detailed information about the band such as the history, members details, albums and also upcoming concerts. This website caters and calls out for fans who may be interested to know more about the band or find out about a new group.
 
 This wesbsite also provides link to the band's official platforms such as official mechandise selling platform, official concert ticketing platform and ythe band's social media platform. This is so to allow the fans to connect with artists and find out more about them
 
-##Credits
+## Credits
 
 Slideshow in home.html 
 - Code : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_auto
